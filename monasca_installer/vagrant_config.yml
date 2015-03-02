@@ -165,6 +165,7 @@ master_config:
     transformed-events: { replicas: 3, partitions: 12 }
     alarm-state-transitions: { replicas: 3, partitions: 12 }
     alarm-notifications: { replicas: 3, partitions: 12 }
+    retry-notifications: { replicas: 3, partitions: 3 }
   # Leave undefined if there is no root password for mysql
   mysql_admin_password: password
 
